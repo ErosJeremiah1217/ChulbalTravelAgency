@@ -1,0 +1,195 @@
+.navbar-inverse{
+	background-color: transparent;
+	border-color: transparent;
+}
+
+.navbar-inverse .navbar-brand{
+	color: white;
+	font-size: 25px;
+	font-weight: 600;
+}
+
+#brand-image{
+	height: 70px;
+	margin-top: -45px;
+	margin-left: 0px;
+}
+
+.navbar-brand{
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-size: 20;
+}
+.nav .navbar-nav .navbar-right{
+	margin: 25px 0;
+}
+
+.navbar-inverse .navbar-nav > li > a{
+	color: #D5D5D5;
+	text-transform: uppercase;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:active{
+	color: white;
+}
+
+@media only screen and (max-width: 767px){
+	.navbar-inverse .navbar-brand{
+		font-size: 30px;
+		padding: 20px 15px;
+	}
+}
+
+.fa{
+	padding: 15px;
+	font-synthesis: 25px;
+	color: white;
+}
+
+.fa:hover{
+	color: #D5D5D5;
+}
+
+.padding img {
+	width: 100%;
+}
+
+footer{
+	width: 100%;
+	background-color: #12406a;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: white;
+}
+
+@font-face {
+  	font-family: myFirstFont;
+  	src: url(../Fonts/Honokamin.ttf);
+}
+
+@font-face {
+  	font-family: mySecondFont;
+  	src: url(../Fonts/Avenir.ttf);
+}
+
+@font-face {
+  	font-family: myThirdFont;
+  	src: url(../Fonts/Avenir2.otf);
+}
+
+
+nav.navbar{
+   -webkit-transition: all 0.4s ease;
+   transition: all 0.4s ease;
+}
+
+nav.navbar-inverse {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+nav.navbar.solid {
+  	background-color: #12406a;
+}
+
+.container-fluid h5{
+	padding-right: 10px;
+}
+.container-fluid span{
+	font-weight: bold;
+}
+
+.icon{
+	max-width: 300px;
+}
+
+.contact-section{
+	background: url(../Pictures/contact.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100%;
+	padding: 40px 0;
+}
+
+.contact-section h1{
+	text-align: center;
+	color: #12406a;
+	font-family: MySecondFont;
+}
+
+.contact-section h3{
+	text-align: center;
+	color: #12406a;
+	font-family: MySecondFont;
+}
+
+
+.border{
+	width: 400px;
+	height: 3px;
+	background: #12406a;
+	margin: 40px auto;
+}
+
+.contact-form{
+	max-width: 600px;
+	margin: auto;
+	padding: 0 10px;
+	
+}
+
+.contact-form-text{
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	margin: 16px 0;
+	border: 0;
+	background: white;
+	padding: 20px 40px;
+	outline: none;
+	color: black;
+	transition: 0.5s;
+	font-family: MySecondFont;
+}
+
+textarea.contact-form-text{
+	resize: none;
+	height: 120px;
+}
+
+.contact-form-btn{
+	float: right;
+	border: 0;
+	background: #12406a;
+	color: white;
+	padding: 12px 50px;
+	border-radius: 20px;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+.contact-form-btn:hover{
+	background: #adbed2;
+	color: black;
+}
+
+.padding{
+	padding: 80px 0;
+}
+
+.caption h3{
+	color: white;
+}
+
+.caption h5{
+	text-align: center;
+	color: white;
+}
+
+@font-face {
+  	font-family: mySecondFont;
+  	src: url(../Fonts/Avenir.ttf);
+}
+

@@ -1,0 +1,369 @@
+body{
+	background-image: url("../Pictures/Seoul.jpg");
+	background-size: 100%;
+	background-color: #cccccc;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+	}
+
+.navbar-inverse{
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.navbar-inverse .navbar-brand{
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+#brand-image{
+  height: 70px;
+  margin-top: -45px;
+  margin-left: 0px;
+}
+
+.navbar-brand{
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 20;
+}
+.nav .navbar-nav .navbar-right{
+  margin: 25px 0;
+}
+
+.navbar-inverse .navbar-nav > li > a{
+  color: #D5D5D5;
+  text-transform: uppercase;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:active{
+  color: white;
+}
+
+@media only screen and (max-width: 767px){
+  .navbar-inverse .navbar-brand{
+    font-size: 30px;
+    padding: 20px 15px;
+  }
+}
+
+.fa{
+  padding: 15px;
+  font-synthesis: 25px;
+  color: white;
+}
+
+.fa:hover{
+  color: #D5D5D5;
+}
+
+.padding img {
+  width: 100%;
+}
+
+footer{
+  width: 100%;
+  background-color: #12406a;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(../Fonts/Honokamin.ttf);
+}
+
+@font-face {
+    font-family: mySecondFont;
+    src: url(../Fonts/Avenir.ttf);
+}
+
+@font-face {
+    font-family: myThirdFont;
+    src: url(../Fonts/Avenir2.otf);
+}
+
+
+nav.navbar{
+   -webkit-transition: all 0.4s ease;
+   transition: all 0.4s ease;
+}
+
+nav.navbar-inverse {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+nav.navbar.solid {
+    background-color: #12406a;
+}
+
+.container-fluid h5{
+  padding-right: 10px;
+}
+.container-fluid span{
+  font-weight: bold;
+}
+
+.icon{
+  max-width: 300px;
+}
+
+.container1 {
+  position: relative;
+  top: 350px;
+  left: 270px;
+  width: 50%;
+}
+
+.image1 {
+  display: block;
+  width: 265px;
+  height: 275px;
+}
+
+.overlay1 {
+  position:absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #2C2C2C;
+  overflow: hidden;
+  width: 265px;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container1:hover .overlay1 {
+  height: 100%;
+}
+
+.text1 {
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+
+
+
+.container2 {
+  position: relative;
+  top: 73px;
+  left: 610px;
+  width: 50%;
+}
+
+.image2 {
+  display: block;
+  width: 265px;
+  height: 275px;
+}
+
+.overlay2 {
+  position:absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #2C2C2C;
+  overflow: hidden;
+  width: 265px;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container2:hover .overlay2 {
+  height: 100%;
+}
+
+.text2 {
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+
+
+.container3 {
+  position: absolute;
+  top: 350px;
+  left: 950px;
+  width: 50%;
+}
+
+.image3 {
+  display: block;
+  width: 265px;
+  height: 275px;
+}
+
+.overlay3 {
+  position:absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #2C2C2C;
+  overflow: hidden;
+  width: 265px;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container3:hover .overlay3 {
+  height: 100%;
+}
+
+.text3 {
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+
+.container4 {
+  position: relative;
+  top: 80px;
+  left: 270px;
+  width: 50%;
+}
+
+.image4 {
+  display: block;
+  width: 265px;
+  height: 275px;
+}
+
+.overlay4 {
+  position:absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #2C2C2C;
+  overflow: hidden;
+  width: 265px;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container4:hover .overlay4 {
+  height: 100%;
+}
+
+.text4 {
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.container5 {
+  position: relative;
+  top: -195px;
+  left: 620px;
+  width: 50%;
+}
+
+.image5 {
+  display: block;
+  width: 265px;
+  height: 275px;
+}
+
+.overlay5 {
+  position:absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #2C2C2C;
+  overflow: hidden;
+  width: 265px;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container5:hover .overlay5{
+  height: 100%;
+}
+
+.text5 {
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.container6 {
+  position: relative;
+  top: -475px;
+  left: 950px;
+  width: 50%;
+}
+
+.image6 {
+  display: block;
+  width: 265px;
+  height: 275px;
+}
+
+.overlay6 {
+  position:absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #2C2C2C;
+  overflow: hidden;
+  width: 265px;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container6:hover .overlay6 {
+  height: 100%;
+}
+
+.text6 {
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+
+
+.btnmain{
+         position: absolute;
+         left: 1175px;
+         top: 150px;
+}

@@ -1,0 +1,176 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background: url(../Pictures/pic1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    padding: 40px 0;
+}
+
+
+/*-----nevbar-----*/
+.navbar-inverse{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar-inverse .navbar-brand{
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#brand-image{
+    height: 70px;
+    margin-top: -45px;
+    margin-left: 0px;
+}
+
+.navbar-brand{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20;
+}
+.nav .navbar-nav .navbar-right{
+    margin: 25px 0;
+}
+
+.navbar-inverse .navbar-nav > li > a{
+    color: #D5D5D5;
+    text-transform: uppercase;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:active{
+    color: white;
+}
+
+@media only screen and (max-width: 767px){
+    .navbar-inverse .navbar-brand{
+        font-size: 30px;
+        padding: 20px 15px;
+    }
+}
+
+.fa{
+    padding: 15px;
+    font-synthesis: 25px;
+    color: white;
+}
+
+.fa:hover{
+    color: #D5D5D5;
+}
+
+.padding img {
+    width: 100%;
+}
+
+footer{
+    width: 100%;
+    background-color: #12406a;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(../Fonts/Honokamin.ttf);
+}
+
+@font-face {
+    font-family: mySecondFont;
+    src: url(../Fonts/Avenir.ttf);
+}
+
+@font-face {
+    font-family: myThirdFont;
+    src: url(../Fonts/Avenir2.otf);
+}
+
+
+nav.navbar{
+   -webkit-transition: all 0.4s ease;
+   transition: all 0.4s ease;
+}
+
+nav.navbar-inverse {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+nav.navbar.solid {
+    background-color: #12406a;
+}
+
+.icon{
+    max-width: 300px;
+}
+
+/*----Dev Page-----*/
+
+#developer
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#developer .row
+{
+    margin-top: 80px;
+    margin-left: 40%;
+}
+.col-md-4
+
+{
+    margin: 50px auto;
+    text-align: center;
+}
+.profile
+{
+    background:#ADBED2  ;
+    border: solid #EB8F92;
+    color: #12406A;
+    padding: 30px;
+    font-size: 18px;
+}
+.avatar
+{
+    
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    
+    
+}
+.profile img
+{
+    top: -120px;
+    position: absolute;
+    left:calc(20% - 60%);
+    border: solid#EB8F92;
+}
+
+h1.Developers{
+    color: 
+    white;
+}
+
+p.welcome{
+    background-color: #efefef;
+    margin: 70px;
+    padding: 30px;
+    color:
+    #12406A;
+    border: solid #EB8F92;
+    font-size: 18   px;
+   
+}
+
+h1.about{
+    color:white;
+}

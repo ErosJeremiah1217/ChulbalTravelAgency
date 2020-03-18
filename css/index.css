@@ -1,0 +1,210 @@
+header .carousel-inner .item{  
+	height: 100vh;
+}
+
+.navbar-inverse{
+	background-color: transparent;
+	border-color: transparent;
+}
+
+.navbar-inverse .navbar-brand{
+	color: white;
+	font-size: 25px;
+	font-weight: 600;
+}
+
+#brand-image{
+	height: 70px;
+	margin-top: -45px;
+	margin-left: 0px;
+}
+
+.navbar-brand{
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-size: 20;
+}
+.nav .navbar-nav .navbar-right{
+	margin: 25px 0;
+}
+
+.navbar-inverse .navbar-nav > li > a{
+	color: #D5D5D5;
+	text-transform: uppercase;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:active{
+	color: white;
+}
+
+.banner{
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+
+.carousel-caption{
+	padding-bottom: 30px;
+	text-align: left;
+}
+
+.carousel-caption h2{
+	font-size: 35px;
+	font-family: mySecondFont;
+	text-transform: uppercase;
+	font-style: italic;
+}
+
+.carousel-caption h3{
+	font-size: 20px;
+	font-family: mySecondFont;
+	text-transform: uppercase;
+	font-style: italic;
+}
+
+
+.carousel-caption a{	
+	background: #222222;
+	padding: 15px 35px;
+	display: inline-block;
+	margin-top: 15px;
+	color: white;
+	text-transform: uppercase;
+}
+.carousel-control.right{
+	background-image: none;
+}
+
+.carousel-control.left{
+	background-image: none;
+}
+
+.carousel-indicators .active{
+	background-color: white;
+	border-color: white;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+	.carousel-caption{
+		padding-bottom: 50px;
+	}
+	.carousel-caption h2{ 
+		font-size: 30px;
+	}
+}
+
+@media only screen and (max-width: 767px){
+	.navbar-inverse .navbar-brand{
+		font-size: 30px;
+		padding: 20px 15px;
+	}
+	.navbar-collapse{
+		background-color: #12406a;
+	}
+	.carousel-caption{
+		padding-bottom: 120px;
+	}
+	.carousel-caption h2{
+		font-size: 20px;
+	}
+	.carousel-caption h3{
+		font-size: 15px;
+	}
+
+}
+
+.landing-text{
+	text-align: center;
+}
+
+.padding{
+	padding: 80px 0;
+}
+
+.padding h4{
+	font-family: mySecondFont;
+	color: black;
+	font-style: bold;
+}
+
+.padding h2{
+	font-family: mySecondFont;
+	color: black;
+	font-style: bold;
+}
+
+.padding p{
+	font-family: mySecondFont;
+
+}
+
+.padding img{
+	width: 100%;
+	position: 
+}
+
+.fa{
+	padding: 15px;
+	font-synthesis: 25px;
+	color: white;
+}
+
+.fa:hover{
+	color: #D5D5D5;
+}
+
+.padding img {
+	width: 100%;
+}
+
+footer{
+	width: 100%;
+	background-color: #12406a;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: white;
+}
+
+@font-face {
+  	font-family: myFirstFont;
+  	src: url(../Fonts/Honokamin.ttf);
+}
+
+@font-face {
+  	font-family: mySecondFont;
+  	src: url(../Fonts/Avenir.ttf);
+}
+
+@font-face {
+  	font-family: myThirdFont;
+  	src: url(../Fonts/Avenir2.otf);
+}
+
+
+nav.navbar{
+   -webkit-transition: all 0.4s ease;
+   transition: all 0.4s ease;
+}
+
+nav.navbar-inverse {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+nav.navbar.solid {
+  	background-color: #12406a;
+}
+
+.container-fluid h5{
+	padding-right: 10px;
+}
+.container-fluid span{
+	font-weight: bold;
+}
+
+.icon{
+	max-width: 300px;
+}
